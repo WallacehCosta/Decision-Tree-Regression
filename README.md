@@ -17,9 +17,14 @@ This section generates a noisy **sine wave** dataset. It fits two models:
 * A **deep tree (`max_depth=5`)** that fits the noise in the training data too closely (Overfitting).
 The resulting plot clearly shows the trade-off between bias and variance.
 
+![DTR](images/IMG1-DTR.png)
+
 ### 2. Multi-Output Demo: Circle Approximation
 This section demonstrates the Decision Tree's ability to handle **multiple target variables simultaneously**. It generates a dataset where the outputs form a noisy circle defined by sine and cosine functions.
 * The Decision Tree learns to approximate the curved relationship by creating a series of **local linear segments**, with deeper trees resulting in more segments and a smoother (but potentially overfit) approximation.
+
+![DTR](images/IMG1-DTR.png)
+
 ---
 
 ## Key Concepts Demonstrated
